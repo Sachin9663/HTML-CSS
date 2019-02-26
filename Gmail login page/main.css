@@ -1,0 +1,157 @@
+.container{
+	height:490px;
+	width: 450px;
+	border:1px solid #e0d5d5;
+	border-radius: 8px;
+	margin: auto;
+	margin-top: 70px;
+	text-align: center;
+	line-height: 10px;
+	font-family: roboto,arial,sans-serif;
+}
+.top{
+	padding-top: 30px;
+}
+
+.head1{
+	font-family: 'Google Sans',arial,sans-serif;
+	color: #202124;
+	font-size: 24px;
+
+}
+
+.head2{
+	font-size: 1rem;
+}
+
+input[type=text]{
+	/*width:80%; */
+  height: 30px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 17px;
+  /*box-sizing: border-box;*/
+}
+
+.middle{
+	color: #1a73e8;
+	font-weight: 500;
+	letter-spacing: .25px;
+	font-size: inherit;
+	font-family: roboto,arial,sans-serif;
+	text-align: left;
+	padding-left: 20px;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.content1{
+	margin-top: 30px;
+	text-align: left;
+	padding-left: 20px;
+	color: #5f6368;
+    font-size: 14px;
+    line-height: 1.4286;
+}
+
+.content2{
+	margin-top: 10px;
+	text-align: left;
+	padding-left:0px;
+}
+
+
+.button {
+	font-family: 'Google Sans',arial,sans-serif;
+    letter-spacing: .25px;
+    background-color:#1b73e8; 
+    border-radius:6px;
+    padding: 8px 25px;
+    text-align: center;
+    font-size: 16px;
+    margin-left:70%;
+    border: none;
+}
+
+.button a {
+	background-color:#1b73e8; 
+    text-decoration: none;
+    color: white;
+}
+
+a{
+	color:#1b73e8; 
+	text-decoration: none;
+}
+
+.content3{
+	margin-top: 45px;
+	padding-left: 20px;
+	text-align: left;
+	text-decoration: none;
+	/*float: left;*/
+}
+
+.footer{
+	padding-top: 30px;
+	width: 450PX;
+	margin: auto;
+}
+
+.select{
+	border:0px white;
+	float: left;
+	background:none;
+	color: #191919;
+	outline: none;
+}
+
+.footer1{
+	font-family: roboto,arial,sans-serif;
+	font-size: 13px;
+	float: right;
+	padding-right: 0px;
+	word-spacing:15px;
+}
+
+.footer1 a{
+	color: #747474;
+}
+
+.user-input-wrp {
+	position: relative;
+	width: 100%;
+}
+.user-input-wrp .inputText{
+	width: 82%;
+	border: 1px solid #ccc;
+	outline: none;
+}
+.user-input-wrp .inputText:invalid {
+	box-shadow: none !important;
+}
+.user-input-wrp .inputText:focus{
+	border-color: #1b73e8;
+	border-width: 2px;
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 40px;
+	left: 30px;
+	transition: 0.3s ease all;
+	color: #5f6368;
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: 24px;
+	left: 24px;
+	font-size: 13px;
+	opacity: 1;
+	color: #1b73e8;
+}
+
+
