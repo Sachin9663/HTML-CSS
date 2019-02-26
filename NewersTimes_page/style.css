@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	height:90%;
+	width: 95%;
+	/*border:2px solid #e0d5d5;*/
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 30px;
+	/*text-align: right;*/
+}
+
+.h1{
+	float: right;
+	display: inline-block;
+	font-weight: 900;
+	padding-right: 10px;
+	font-size: 72px;
+	background-image:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  	-webkit-background-clip: text;
+ 	color: transparent;
+ 
+}
+
+.logo {
+	display: inline-block;
+}
+
+
+
+.content{
+	clear: both;
+	width: 96%;
+	height: 100%;
+	margin: 2%;
+	border: 7px solid #c7b4b43d;
+	border-radius: 3px;
+	float: left;
+	padding-bottom: 10px;
+	line-height: 24px;
+
+
+}
+
+.col1{
+	float: left;
+}
+
+section{
+	float: left;
+	width: 40%;
+	padding-left: 3%;
+	font-family: "MuseoSans-300",Open Sans;
+}
+
+.aside{
+	float: left;
+}
+
+.col3{
+	padding: 2%; 
+	display: inline-block;
+}
+/*.table{
+	height: 30%;
+}*/
+
+table{
+	width: 100%;
+	height: 30%;
+	/*padding: 2%;*/	
+	border: 0px solid black;
+	padding-left: 60px;
+}
+td{
+	height: 100%;
+	border: 0px solid black;	
+	padding: 1%;
+}
+
+td img{
+	vertical-align: bottom;
+}
+
+.col4 p{
+	text-align: center;
+
+
+}
+
+.bottom{
+	box-sizing: border-box;
+	font-family: "MuseoSans-300",Open Sans;
+	border: 1px soid black;
+	float: left;
+    width: 100%;
+    margin-left: 8px;
+}
+
+.box{
+	position: relative;
+	margin-left: 345px;
+    border: 3px solid #f2f2f2;
+    line-height: 0px;
+    text-align: center;
+    margin-top: 40px;
+    height: 42px;
+    width: 375px;
+}
+
+.box h2{
+	background-color: #ffffff;
+	position: absolute;
+	border: none;
+	padding: 0 10px;
+	margin: 0 20px;
+	height: 33px;
+	top: -3px;
+	left: 39px;
+}
+
+.left{
+	width: 50%;
+	float: left;
+
+}
+
+.right{
+	width: 50%;	
+	float: left;
+}
+
+.bottom a{
+	text-decoration: none;
+	color: #f300ff;
+}
+
+.icon ul{
+	margin-left: 33%;
+}
+
+.icon ul li{
+	padding-top: 100px;
+	padding-left: 30px;
+	list-style: none;
+	float: left;
+}
+
+i.fab ,i.fas {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #100c0c;
+  padding: 8px 8px;
+
+}
+
+
