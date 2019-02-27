@@ -57,12 +57,17 @@ table {
 	/*text-align: right;*/
 }
 
+h2{
+	font-weight: 800;
+}
+
 .h1{
 	float: right;
-	display: inline-block;
+	line-height: 70px;
+	/*display: inline-block;*/
 	font-weight: 900;
 	padding-right: 10px;
-	font-size: 72px;
+	font-size: 70px;
 	background-image:linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
   	-webkit-background-clip: text;
  	color: transparent;
@@ -89,20 +94,20 @@ table {
 
 }
 
-.col1{
+/*.col1{
 	float: left;
-}
+}*/
 
 section{
 	float: left;
-	width: 40%;
+	width: 46%;
 	padding-left: 3%;
 	font-family: "MuseoSans-300",Open Sans;
 }
 
-.aside{
+/*.aside{
 	float: left;
-}
+}*/
 
 .col3{
 	padding: 2%; 
@@ -126,7 +131,8 @@ td{
 }
 
 td img{
-	vertical-align: bottom;
+	width: 100%;
+	vertical-align: top;
 }
 
 .col4 p{
@@ -167,13 +173,14 @@ td img{
 }
 
 .left{
+	padding-left: 22px;
 	width: 50%;
 	float: left;
 
 }
 
 .right{
-	width: 50%;	
+	width: 48%;	
 	float: left;
 }
 
