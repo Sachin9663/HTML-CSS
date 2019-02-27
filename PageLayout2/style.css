@@ -1,0 +1,169 @@
+body{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+
+header{
+	width: 100%;
+	height: 100px;
+	background-image: url("images/bg-image.png");
+}
+
+.logo{
+	padding: 24px;
+} 
+
+header ul{
+	font-weight: 600;
+	padding-left:425px;
+	vertical-align: top;
+	list-style: none;
+	display: inline-block;
+
+}
+
+header ul li{
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	text-decoration: underline;
+
+}
+
+.dropdwn{
+	display: none;
+}
+.dropdwn:hover{
+	display: block;
+}
+
+
+
+.fas {
+    color: white;
+}
+.fa-user-circle {
+    font-size: 41px;
+    padding-left: 60px;
+    vertical-align: middle;
+    padding-right: 11px;
+    color: white;
+}
+
+.banner{
+	background-image: url("images/banner.png");
+	width: 100%;
+	height: 100%;
+	padding-top: 1px;
+} 
+
+.banner-on{
+	font-weight: 700;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-bottom: 100px;
+}
+
+.banner button{
+	font-size: 16px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-image: linear-gradient(90deg, #ec6519 0%, #f93f04 100%);
+    box-shadow: 0px 10px 26px rgba(241,87,17,0.5);
+    margin-top: 15px;
+    outline: none;
+    border: none;
+}
+
+.middle h2{
+	font-size: 50px;
+	text-align: center;
+	color: #464141;
+}
+
+.banner-on h1{
+
+	font-size: 55px;
+}
+p{
+	color: white;
+}
+
+.banner a{
+	text-decoration: none;
+	color: white;
+}
+
+.bottom{
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+	margin-left: 76px;
+	margin-right: 85px;
+	box-shadow: -1px 17px 65px -5px rgba(0,0,0,0.75);
+	margin-bottom: 50px;
+}
+
+/*.bottom .right{
+	padding-right: 25px;
+	vertical-align: top;
+	margin-bottom: 0px;
+}*/
+
+.bottom .left{
+	float: left;
+	position: relative;
+
+}
+
+.bottom .right p{
+	color: black;
+}
+
+.right .text{
+	display: inline-block;
+	vertical-align: top;
+    padding-top: 28px;
+}
+.right .img{
+	display: inline-block;
+}
+
+.bottom .play{
+	color: black;
+	height: 30px;
+	width: 100px;
+}
+
+.bottom .play h3{
+	background-color: #ffffffcf;
+    padding: 40px 153px;
+    border-radius: 5px;
+    position: absolute;
+    top: 268px;
+    left: 215px;
+}
+
+.bottom .play-box{
+	height: 72px;
+    width: 72px;
+    left: 50%;
+    top: 50%;
+    margin-left: -36px;
+    margin-top: -36px;
+    position: absolute;
+    background-color: black;
+    cursor: pointer;
+    background-size: 72px 72px;
+}
