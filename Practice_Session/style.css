@@ -75,7 +75,7 @@ header .top2 ul li a:hover{
 	height: 600px;
 	background: linear-gradient(to bottom, purple, white);
 	/*background-image: url("images/bg.jpg");*/
-	border: 0px solid black;
+	border: 1px solid black;
 }
 
 .bannerSection .para{
@@ -147,26 +147,107 @@ header .top2 ul li a:hover{
 
 .page2{
 	width: 100%;
-	height: 1000px;
+	height: 1400px;
 	background-color: #f6eff6;
 
 }
+
+.page2 .top{
+	text-align: center;
+	padding-top: 50px;
+	width: 70%;
+	margin: auto;
+}
+
+.page2 .top span{
+	font-size: 40px;
+}
+.page2 .top p{
+	font-size: 21px;
+}
+
+.page2 .top hr{
+	width: 6%;
+    height: 2px;
+    background-color: #ec6165;
+    border: none;
+}
+
+.page2 .first{
+	padding-top: 50px;
+}
+
+.page2 .first .img{
+	display: inline-block;
+
+}
+
+ .img img{
+	width: 820px;
+}
+
+.page2 .second{
+	padding-top: 50px;
+}
+
+.page2 .second .img{
+	float: right;
+}
+
+.page2 .third{
+	padding-top: 80px;
+}
+
+.page2 .third .img{
+	float: left;
+}
+
+.page2 .fourth{
+	padding-top: 80px;
+}
+
+.page2 .fourth .img{
+	float: right;
+}
+
+
+
+.text{
+	display: inline-block;
+    width: 26%;
+    vertical-align: top;
+    padding-left: 69px;
+    line-height: 25px;
+}
+
+ .text span{
+	color: #f59630;
+    padding: 9px;
+    border: 1px solid #f1922f;
+}
+
+
+
 .footer{
 	width: 100%;
 	height: 500px;
 	background-color: black;
 	margin-bottom:40px;
+	position: relative;
+
 }
 
 .footer .p{
-	font-size: 30px;
-	text-align: center;
-	color: white;
-	padding-top: 50px;
+	margin: 0;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .footer hr{
-	width: 7%;
+	width: 5%;
 	margin: auto;
 	height: 3px;
 	background-color:#ec6165;
@@ -174,7 +255,9 @@ header .top2 ul li a:hover{
 }
 
 .footer .map{
-	text-align: center;
+	width: 600px;
+	padding-left: 303px;
+	/*text-align: center;*/
 	position: relative;
 	/*display: inline-block;*/
 }
@@ -189,18 +272,18 @@ header .top2 ul li a:hover{
 }
 
 .point1{
-	top:65%;
-	left:50%;
+	top:16%;
+	left:75%;
 }
 
 .point2{
-	top: 55%;
-    left: 49%;
+	top: 39%;
+    left: 70%;
 }
 
 .point3{
-	top: 56%;
-    left: 53%;
+	top: 24%;
+    left: 97%;
 }
 
 .point4{
@@ -215,12 +298,12 @@ header .top2 ul li a:hover{
 
 .point6{
 	top: 69%;
-    left: 69%;
+    left: 76%;
 }
 
 .point7{
-	top: 28%;
-    left: 57%;
+	top: 74%;
+    left: 104%;
 }
 
 .point8{
@@ -230,35 +313,35 @@ header .top2 ul li a:hover{
 
 .point9{
 	top: 36%;
-    left: 62%;
+    left: 92%;
 }
 .point10{
-	top: 55%;
-    left: 33%;
+	top: 7%;
+    left: 93%;
 }
 .point11{
 	top: 67%;
-    left: 36%;
+    left: 58%;
 }
 .point12{
-	top: 77%;
-    left: 37%;
+	top: 52%;
+    left: 75%;
 }
 .point13{
 	top: 64%;
-    left: 39%;
+    left: 51%;
 }
 .point14{
 	top: 39%;
-    left: 29%;
+    left: 43%;
 }
 .point15{
 	top: 12%;
-    left: 28%;
+    left: 98%;
 }
 .point16{
 	top: 10%;
-    left: 26%;
+    left: 43%;
 }
 
 .pointsb{
@@ -273,24 +356,20 @@ header .top2 ul li a:hover{
 }
 
 .point1{
-	top: 18%;
-    left: 66%;
+	top: 16%;
+    left: 75%;
 }
 .point2{
 	top: 39%;
-    left: 62%;
+    left: 70%;
 }
 .point3{
 	top: 24%;
-    left: 57%;
+    left: 97%;
 }
 .point4{
 	top: 19%;
     left: 49%;
-}
-
-.footer {
-	position: relative;
 }
 
 .footer .box1{
@@ -317,13 +396,13 @@ header .top2 ul li a:hover{
 }
 
 .footer .box2{
-	height: 84px;
+	height: 85px;
     border-radius: 10px;
-    width: 185px;
+    width: 179px;
     background-color: #363636;
     position: absolute;
     top: 28%;
-    left: 79%;
+    left: 85%;
 }
 
 .footer .box2 p{
