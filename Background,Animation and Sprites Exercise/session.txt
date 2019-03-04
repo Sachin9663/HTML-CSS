@@ -1,5 +1,0 @@
-round-full image ,not a part of image
-repeat -full repeat 
-space -space is equalyy divided in image size
-
-overall -scroll,auto check it
