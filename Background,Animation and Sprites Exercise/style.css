@@ -1,0 +1,151 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h2{
+	font-size: 30px;
+	padding-left: 10px;
+}
+
+.container{
+	height: 570px;
+	width: 100%;
+	background-image: url("images/bg.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.content{
+	height: 500px;
+	width: 500px;
+	background-image: url("images/image.jpeg");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	overflow: auto;
+	background-attachment: local;
+}
+
+.content .para{
+	background-color: #ff0000;
+}
+
+#ani-mation{
+	margin-top : 100px;
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	animation-delay: 3s;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-name: box;
+}
+
+@keyframes box {
+  0%   {opacity: 1;}
+  50%  {opacity: 0;}
+  100%  {opacity: 0.5;}
+}
+
+.ex7{
+	margin: 150px;
+	height: 100px;
+	width: 200px;
+	background-color: #ff00ff;
+	border:1px solid #000;
+	animation-name: example;
+  	animation-duration: 3s;
+}
+
+.ex7:active{
+	height: 200px;
+	width: 100px;
+	background-color: #000;
+	border: 2px solid #ff00ff;
+	transition: 3s;
+}
+
+footer{
+	height: 150px;
+	width: 100%;
+	background-color: #fdfdfd;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+footer .fb-img{
+	background-image: url("images/logos.png");
+	background-position: -238px -27px; 
+	width: 125px;
+	height: 127px;
+	display: inline-block;
+	border-radius: 20px;
+}
+
+footer .insta-img{
+	background-image: url("images/logos.png");
+	background-position: -37px -27px; 
+	width: 125px;
+	height: 129px;
+	display: inline-block;
+	border-radius: 38px;
+}
+
+footer .twitter-img{
+	background-image: url("images/logos.png");
+	background-position: -435px -26px; 
+	display: inline-block;
+	width: 131px;
+	height: 119px;
+	border-radius: 14px;
+}
