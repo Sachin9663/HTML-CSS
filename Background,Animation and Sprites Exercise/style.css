@@ -78,7 +78,7 @@ h2{
 	background-color: #ff0000;
 }
 
-#ani-mation{
+#animation{
 	margin-top : 100px;
 	height: 100px;
 	width: 100px;
@@ -95,22 +95,21 @@ h2{
   100%  {opacity: 0.5;}
 }
 
-.ex7{
+.animate {
 	margin: 150px;
 	height: 100px;
 	width: 200px;
 	background-color: #ff00ff;
-	border:1px solid #000;
-	animation-name: example;
-  	animation-duration: 3s;
+	border: 1px solid #000;
+	transition: width 1s, height 1s, transform 1s;
 }
 
-.ex7:active{
+.animate:active {
 	height: 200px;
 	width: 100px;
 	background-color: #000;
-	border: 2px solid #ff00ff;
-	transition: 3s;
+	border-color: 2px solid #ff00ff;
+	transform: scale(2, 3);
 }
 
 footer{
